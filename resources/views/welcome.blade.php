@@ -11,6 +11,10 @@
         padding: 0;
         box-sizing: inherit;
     }
+    .blog-header {
+        background-color:red;
+    }
+    
 
     html {
         box-sizing: border-box;

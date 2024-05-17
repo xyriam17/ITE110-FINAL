@@ -164,20 +164,7 @@
         .product:hover .product-btns{
             opacity: 1;
         }
-        .off-info .sm-title{
-            background: var(--carribean-green);
-            color: white;
-            display: inline-block;
-            padding: 0.5rem;
-            position: absolute;
-            top: 0;
-            left: 0;
-            writing-mode: vertical-lr;
-            transform: rotate(180deg);
-            z-index: 1;
-            letter-spacing: 3px;
-            cursor: pointer;
-        }
+        
 
         /* product collection */
         /*.product-collection{*/
@@ -342,9 +329,7 @@
                         @endif
                     </div>
 
-                    <div class = "off-info">
-                        <h2 class = "sm-title">25% off</h2>
-                    </div>
+                   
                 </div>
             @endforeach
                 <!-- end of single product -->
